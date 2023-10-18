@@ -1,3 +1,5 @@
+https://51.ruyo.net/15646.html
+
 # AutoApiSecret-加密版
 
 AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS

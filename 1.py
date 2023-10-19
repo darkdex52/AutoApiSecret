@@ -45,38 +45,38 @@ def main():
     try:
         if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root',headers=headers).status_code == 200:
             num1+=1
-            print("1调用成功"+str(num1)+'次')
+            print("1 call success"+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/me/drive',headers=headers).status_code == 200:
             num1+=1
-            print("2调用成功"+str(num1)+'次')
+            print("2 call success"+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/drive/root',headers=headers).status_code == 200:
             num1+=1
-            print('3调用成功'+str(num1)+'次')
+            print('3 call success'+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/users ',headers=headers).status_code == 200:
             num1+=1
-            print('4调用成功'+str(num1)+'次')
+            print('4 call success'+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/me/messages',headers=headers).status_code == 200:
             num1+=1
-            print('5调用成功'+str(num1)+'次')    
+            print('5 call success'+str(num1)+'次')    
         if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules',headers=headers).status_code == 200:
             num1+=1
-            print('6调用成功'+str(num1)+'次')    
+            print('6 call success'+str(num1)+'次')    
         if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders/Inbox/messages/delta',headers=headers).status_code == 200:
             num1+=1
-            print('7调用成功'+str(num1)+'次')
+            print('7 call success'+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root/children',headers=headers).status_code == 200:
             num1+=1
-            print('8调用成功'+str(num1)+'次')
+            print('8 call success'+str(num1)+'次')
         if req.get(r'https://api.powerbi.com/v1.0/myorg/apps',headers=headers).status_code == 200:
             num1+=1
-            print('8调用成功'+str(num1)+'次') 
+            print('8 call success'+str(num1)+'次') 
         if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders',headers=headers).status_code == 200:
             num1+=1
-            print('9调用成功'+str(num1)+'次')
+            print('9 call success'+str(num1)+'次')
         if req.get(r'https://graph.microsoft.com/v1.0/me/outlook/masterCategories',headers=headers).status_code == 200:
             num1+=1
-            print('10调用成功'+str(num1)+'次')
-            print('此次运行结束时间为 :', localtime)
+            print('10 call success'+str(num1)+'次')
+            print('The end time of run is :', localtime)
     except:
         print("pass")
         pass

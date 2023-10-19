@@ -10,22 +10,6 @@ AutoApi series: AutoApi, AutoApiSecret, AutoApiSR, AutoApiS
 * **Free, no additional equipment/server required**, just forget it after deployment.
 * Encrypted version, hides application ID + secret, protects account security.
 
-### Special Instructions/Thanks ###
-
-*Original tutorial blogger - Shady (Kuan ID-Paran): https://blog.432100.xyz/index.php/archives/50/
-
-* Ordinary version address: https://github.com/wangziyingwen/AutoApi
-
-* Encrypted version address (recommended): https://github.com/wangziyingwen/AutoApiSecret
-
-* Imitate human application development version (including upgrade steps): https://github.com/wangziyingwen/AutoApiSR
-
-* Super version address: https://github.com/wangziyingwen/AutoApiS
-
-* **Common errors and solutions/update log**: https://github.com/wangziyingwen/Autoapi-test
-
-* Get the refresh_token gadget from the web page (not recommended): https://github.com/wangziyingwen/GetAutoApiToken
-
 * Video tutorial: (I operate very slowly, so I can double speed/fast forward by myself)
 
 * Online/download address: https://kino-onemanager.herokuapp.com/Video/AutoApi%E6%95%99%E7%A8%8B.mp4?preview

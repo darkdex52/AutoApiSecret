@@ -43,15 +43,15 @@ def main():
     'Content-Type':'application/json'
     }
     try:
-        if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root',headers=headers).status_code == 200:
-            num1+=1
-            print("1 /drive/root call successful "+str(num1)+' times')
-        if req.get(r'https://graph.microsoft.com/v1.0/me/drive',headers=headers).status_code == 200:
-            num1+=1
-            print("2 /drive call successful "+str(num1)+' times')
-        if req.get(r'https://graph.microsoft.com/v1.0/drive/root',headers=headers).status_code == 200:
-            num1+=1
-            print('3 /drive/root call successful '+str(num1)+' times')
+#        if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root',headers=headers).status_code == 200:
+#            num1+=1
+#            print("1 /drive/root call successful "+str(num1)+' times')
+#        if req.get(r'https://graph.microsoft.com/v1.0/me/drive',headers=headers).status_code == 200:
+#            num1+=1
+#            print("2 /drive call successful "+str(num1)+' times')
+#        if req.get(r'https://graph.microsoft.com/v1.0/drive/root',headers=headers).status_code == 200:
+#            num1+=1
+#            print('3 /drive/root call successful '+str(num1)+' times')
         if req.get(r'https://graph.microsoft.com/v1.0/users ',headers=headers).status_code == 200:
             num1+=1
             print('4 /users call successful '+str(num1)+' times')

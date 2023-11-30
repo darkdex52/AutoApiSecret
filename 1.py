@@ -64,9 +64,9 @@ def main():
         if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders/Inbox/messages/delta',headers=headers).status_code == 200:
             num1+=1
             print('7 /mailFolders/Inbox/messages/delta call successful '+str(num1)+' times')
-        if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root/children',headers=headers).status_code == 200:
-            num1+=1
-            print('8 /drive/root/children call successful '+str(num1)+' times')
+#        if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root/children',headers=headers).status_code == 200:
+#            num1+=1
+#            print('8 /drive/root/children call successful '+str(num1)+' times')
         if req.get(r'https://api.powerbi.com/v1.0/myorg/apps',headers=headers).status_code == 200:
             num1+=1
             print('8 /myorg/apps call successful '+str(num1)+' times') 
